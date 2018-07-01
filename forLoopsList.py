@@ -8,8 +8,8 @@
 def sum_list(p):
     s = 0
     for e in p:
-        s += e
-    return s
+        sum += e
+    return sum
 
 
 

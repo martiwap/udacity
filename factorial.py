@@ -1,9 +1,14 @@
 def factorial(number):
+    result = 1
+
+    if (number == 1):
+        return result
+
     if (number > 0):
-        result = 1
         for i in range(number):
             result = result * (i+1)
         return result
+        
     return False
 
 
